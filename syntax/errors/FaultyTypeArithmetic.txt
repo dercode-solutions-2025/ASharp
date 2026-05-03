@@ -1,0 +1,13 @@
+---------------------
+
+Error on line {line}!
+
+2 (or more) types were added, but the type conversion ( {type1} -> {type2} ) failed.
+
+Note: The only types that cause this error are:
+
+Int and Bool
+Float and Bool
+Str (that is not a number/float (ex. "1" is compatible with 2, but "a" isn't.)) and Float/Int
+AnyType and Bool
+---------------------
