@@ -2,7 +2,11 @@
 
 Error on line {line}!
 
+<why?>
+
 2 (or more) types were added, but the type conversion ( {type1} -> {type2} ) failed.
+
+<solution>
 
 Note: The only types that cause this error are:
 
